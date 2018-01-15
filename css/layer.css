@@ -1,0 +1,198 @@
+*{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body{
+	background-image: url('../img/body.jpg');
+	background-size: cover;
+	margin: 0px;
+	padding: 0px;
+	opacity: .8;
+}
+
+.container{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+.navigasi{
+	width: 100%;
+	background-color: darkblue;
+	opacity: .5;
+	padding: 14px;
+	overflow: hidden;
+}
+
+.navigasi ul{
+	float: right;
+	padding-right: 6%;
+}
+
+ul li{
+	display: inline-block;
+}
+
+.navigasi li{
+	position: relative;
+	text-align: center;
+}
+
+.navigasi li::before{
+	position: absolute;
+	content: " ";
+	bottom: -30px;
+	left: 0;
+	width: 90%;
+	height: 0px;
+	background-color: gold;
+	transition: ease 0.3s;
+}
+
+.navigasi li:hover::before{
+	height: 4px;
+}
+
+
+a{
+	font: 20px bold Verdana;
+	text-decoration: none;
+	padding-right: 10px;
+	color: white;
+}
+
+.deskripsi{
+	width: 700px;
+	margin: 30px auto;
+	padding: 4px;
+	background-color: #b6fcd5;
+	margin-bottom: -30px;
+	border-radius: 50px 50px 0 0;
+	text-shadow: 3.2px 2.2px 4px rgba(25,255,30,.9);
+	color: grey;
+}
+
+.deskripsi h1{
+	font:30px bold serif;
+	text-align: center;
+}
+
+.kotak_container{
+	background-color: #d1edc8;
+	width: 700px;
+	height: 700px;
+	margin: 30px auto;
+	position: relative;
+	border-radius: 0 0  50px 50px ;			
+}
+
+.kotak_container div{
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	border-radius: 50px;
+}
+
+.kotak0{
+	background-color: #00688b;
+	top: 0px;
+	left: 0px;
+	z-index: 99;
+}
+
+.kotak1{
+	background-color: #00688b;
+	top: 100px;
+	left: 100px;
+}
+
+.kotak2{
+	background-color: #39871a;
+	top: 200px;
+	left: 200px;
+	z-index: 999;
+}
+
+.kotak3{
+	background-color: #39871a;
+	top: 300px;
+	left: 300px;
+	z-index: 9999;
+}
+
+.kotak4{
+	background-color: #00688b;
+	top: 400px;
+	left: 400px;
+}
+
+.kotak5{
+	background-color: #00688b;
+	top: 500px;
+	left: 500px;
+}
+
+.kotak6{
+	background-color: #d3a221;
+	top: 0px;
+	right: 0px;
+	z-index: 99;
+}
+
+.kotak7{
+	background-color: #d3a221;
+	top: 100px;
+	right: 100px;
+}
+
+.kotak8{
+	background-color: #39871a;
+	top: 200px;
+	right: 200px;
+}
+
+.kotak9{
+	background-color: #39871a;
+	top: 300px;
+	right: 300px;
+	z-index: 99;
+}
+
+.kotak10{
+	background-color: #d3a221;
+	top: 400px;
+	right: 400px;
+}
+
+.kotak11{
+	background-color: #d3a221;
+	top: 500px;
+	right: 500px;
+}
+
+
+.footer{
+	margin: 0 auto;
+	background-color: darkblue;
+	opacity: .7;
+	padding: 14px;
+	color: white;
+	text-align: center;
+	position: relative;
+	font: 18px italic Verdana;
+	position: relative;
+}
+
+
+*{
+	font-family: sans-serif;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+}
