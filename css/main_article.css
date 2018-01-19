@@ -5,12 +5,11 @@
 	-ms-box-sizing: border-box;
 	-o-box-sizing: border-box;
 	box-sizing: border-box;
-		margin: 0;
-	padding: 0;
 }
 
-
 body {
+	margin: 0;
+	padding: 0;
 	background-image : url('../img/body.jpg');
 	background-size: cover;
 	opacity: .893;
