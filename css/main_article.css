@@ -21,20 +21,28 @@ body {
 	font-size : 20px;
 }
 
-.flex-container {
-	
-	display: -webkit-box;
-	
+.flex-container {	
+	display: -webkit-box;	
 	display: -ms-flexbox;
-	
+	display: -moz-flexbox;
 	display: flex;
 	margin: 70px auto;
+	justify-content: space-between;
+	-moz-justify-content: space-between;
 }
 
 .flex-container > div {
 	width : 85%
 	line-height: 75px;
 	margin : 4px;
+}
+
+.bagian-kiri{
+	width: 65%;
+}
+
+.bagian-kanan{
+	width: 35%;
 }
 
 .navigasi{
