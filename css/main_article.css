@@ -23,6 +23,11 @@ body {
 }
 
 .flex-container {
+	
+	display: -webkit-box;
+	
+	display: -ms-flexbox;
+	
 	display: flex;
 	margin: 70px auto;
 }
